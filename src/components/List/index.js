@@ -14,6 +14,14 @@ export default function List() {
                     <MdAdd size={24} color="#FFF" />
                 </button>
             </header>
+
+            <ul>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+            </ul>
         </Container>
     );
 }
